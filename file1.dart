@@ -81,12 +81,14 @@ void main() {
   student1.age = 23;
 
   student1.study();
+  student1.sleep(23);
 
   Student student2 = Student();
   student2.name = 'Jane';
   student2.age = 15;
 
   student2.study();
+  student2.sleep(15);
 }
 
 // functions
@@ -122,5 +124,12 @@ class Student {
   //methods
   void study() {
     print('$name is studying');
+  }
+
+  void sleep(int age) {
+    if (age <= 20) {
+      print('$name is sleeping');
+    } else {
+      print('$name is not sleeping');
   }
 }
