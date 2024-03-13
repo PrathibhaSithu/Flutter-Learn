@@ -59,6 +59,10 @@ void main() {
   print(numbers);
 
   print(names + numbers);
+
+  //add new items to the list
+  names.add('Jane');
+  print(names);
 }
 
 // functions
