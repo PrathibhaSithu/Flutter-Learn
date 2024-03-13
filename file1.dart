@@ -98,3 +98,14 @@ bool isit30(int numberx) {
     return false;
   }
 }
+
+// making classes
+class Student {
+  String? name;
+  int? age;
+
+  //methods
+  void study() {
+    print('$name is studying');
+  }
+}
