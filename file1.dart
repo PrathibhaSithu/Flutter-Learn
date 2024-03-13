@@ -66,6 +66,12 @@ void main() {
 
   // remove item in a list
   names.remove('Doe');
+  print(names);
+
+  //length
+  //names.length;
+
+  print(names.length);
 }
 
 // functions
