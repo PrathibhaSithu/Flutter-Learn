@@ -69,7 +69,7 @@ bool isLessThan30(int number) {
 }
 
 bool isit30(int numberx) {
-  if (numberx < 30) {
+  if (numberx <= 30) {
     return true;
   } else {
     return false;
