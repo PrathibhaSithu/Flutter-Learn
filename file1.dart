@@ -121,7 +121,7 @@ class Student {
   String? name;
   int? age;
 
-  //methods
+//methods
   void study() {
     print('$name is studying');
   }
@@ -131,5 +131,6 @@ class Student {
       print('$name is sleeping');
     } else {
       print('$name is not sleeping');
+    }
   }
 }
