@@ -29,9 +29,16 @@ void main() {
   // call the function
   int sum = addition(5, 6);
   print(sum);
+
+  int sub = subtraction(10, 5);
+  print(sub);
 }
 
 // functions
 int addition(int num1, int num2) {
   return num1 + num2;
+}
+
+int subtraction(int num1, int num2) {
+  return num1 - num2;
 }
