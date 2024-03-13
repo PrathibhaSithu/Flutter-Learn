@@ -43,6 +43,12 @@ void main() {
   } else {
     print('You are younger than 20');
   }
+
+  print(isLessThan30(25)); // Output: true
+  print(isLessThan30(35)); // Output: false
+
+  print(isit30(25)); // Output: true
+  print(isit30(35)); // Output: false
 }
 
 // functions
@@ -56,4 +62,16 @@ int subtraction(int num1, int num2) {
 
 int isAge(int age1) {
   return age1;
+}
+
+bool isLessThan30(int number) {
+  return number < 30;
+}
+
+bool isit30(int numberx) {
+  if (numberx < 30) {
+    return true;
+  } else {
+    return false;
+  }
 }
