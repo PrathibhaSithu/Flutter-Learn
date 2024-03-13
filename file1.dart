@@ -36,9 +36,9 @@ void main() {
   print(subtraction(12, 5));
   // we can also print the function directly
 
-  bool ageing = isTrueAge(26);
+  int ageing = isAge(26);
 
-  if (isTrueAge(true)) {
+  if (ageing > 20) {
     print('You are older than 20');
   } else {
     print('You are younger than 20');
@@ -54,6 +54,6 @@ int subtraction(int num1, int num2) {
   return num1 - num2;
 }
 
-bool isTrueAge(bool age1) {
+int isAge(int age1) {
   return age1;
 }
