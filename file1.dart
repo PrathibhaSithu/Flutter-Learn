@@ -16,6 +16,8 @@ void main() {
   //concatenation
   print('My name is ' + name + ' and I am ' + age.toString() + ' years old.');
 
+  // we need to convert int to string to concatenate
+
   print("$name is $age years old!");
 
   if (age > 20) {
