@@ -76,6 +76,11 @@ void main() {
   print("-----------------Classes and Objects-----------------");
 
   //create an object
+  Student student1 = Student();
+  student1.name = 'John';
+  student1.age = 23;
+
+  student1.study();
 }
 
 // functions
