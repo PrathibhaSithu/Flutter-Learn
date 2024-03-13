@@ -63,6 +63,9 @@ void main() {
   //add new items to the list
   names.add('Jane');
   print(names);
+
+  // remove item in a list
+  names.remove('Doe');
 }
 
 // functions
