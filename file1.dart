@@ -25,4 +25,13 @@ void main() {
   } else {
     print('You are younger than 20');
   }
+
+  // call the function
+  int sum = addition(5, 6);
+  print(sum);
+}
+
+// functions
+int addition(int num1, int num2) {
+  return num1 + num2;
 }
