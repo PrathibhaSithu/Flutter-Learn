@@ -81,6 +81,12 @@ void main() {
   student1.age = 23;
 
   student1.study();
+
+  Student student2 = Student();
+  student2.name = 'Jane';
+  student2.age = 15;
+
+  student2.study();
 }
 
 // functions
