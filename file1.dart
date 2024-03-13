@@ -72,6 +72,10 @@ void main() {
   //names.length;
 
   print(names.length);
+
+  print("-----------------Classes and Objects-----------------");
+
+  //create an object
 }
 
 // functions
