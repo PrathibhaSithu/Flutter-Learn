@@ -51,6 +51,14 @@ void main() {
   print(isit30(35)); // Output: false
 
   // lists
+
+  List numbers = [1, 2, 3, 4, 5];
+  List names = ['John', 'Doe', 'Smith'];
+
+  print(names);
+  print(numbers);
+
+  print(names + numbers);
 }
 
 // functions
