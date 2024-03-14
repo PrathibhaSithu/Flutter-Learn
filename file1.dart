@@ -146,7 +146,6 @@ void printStarPattern(int rows) {
   }
 }
 
-void main() {}
 
 
 
