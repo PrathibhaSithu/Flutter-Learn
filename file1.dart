@@ -89,6 +89,8 @@ void main() {
 
   student2.study();
   student2.sleep(15);
+
+  printStarPattern(5);
 }
 
 // functions
@@ -134,6 +136,18 @@ class Student {
     }
   }
 }
+
+void printStarPattern(int rows) {
+  for (int i = rows; i > 0; i--) {
+    for (int j = 0; j < i; j++) {
+      print('*');
+    }
+    print('');
+  }
+}
+
+void main() {}
+
 
 
 //statelessWidget | statefulWidget
