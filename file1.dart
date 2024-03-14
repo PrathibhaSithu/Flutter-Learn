@@ -139,5 +139,12 @@ class Student {
 //statelessWidget | statefulWidget
 
 /*
+  State 
+    Data inside a box
 
+  Stateful Widget
+    A widget that has a state that change time to time
+  
+  Stateless Widget
+    A widget that has no state and never changes
 */
