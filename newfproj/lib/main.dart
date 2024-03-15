@@ -17,7 +17,11 @@ class MyApp extends StatelessWidget {
           title: const Text("First App"),
           backgroundColor: Colors.pink,
         ),
-        body: const Icon(Icons.add),
+        body: Container(
+          height: 100,
+          width: 250,
+          color: Colors.indigoAccent,
+        ),
       ),
     );
   }
