@@ -13,20 +13,40 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: "First App",
       home: Scaffold(
-        appBar: AppBar(
-          title: const Text("First App"),
-          backgroundColor: Colors.pink,
-        ),
-        body: Container(
-          height: 250,
-          width: 250,
-          decoration: BoxDecoration(
-            color: Colors.purpleAccent,
-            borderRadius: BorderRadius.circular(10),
-          ),
-          child: Text("Hello"),
-        ),
-      ),
+          backgroundColor: Colors.orangeAccent,
+          // appBar: AppBar(
+          //   title: const Text("First App"),
+          //   backgroundColor: Colors.pink,
+          // ),
+          // body: Container(
+          //   height: 250,
+          //   width: 250,
+          //   decoration: BoxDecoration(
+          //     color: Colors.purpleAccent,
+          //     borderRadius: BorderRadius.circular(10),
+          //   ),
+          //   child: Text("Hello"),
+          // ),
+          body: Column(
+            children: [
+              Padding(
+                padding: const EdgeInsets.only(top: 128, left: 16),
+                child: Image.asset(
+                  "assets/login.png",
+                  height: 250,
+                ),
+              ),
+              SizedBox(height: 20),
+              Image.asset("assets/reg.png", height: 250),
+              Container(
+                  height: 250,
+                  width: 250,
+                  decoration: BoxDecoration(
+                    color: Colors.purpleAccent,
+                    borderRadius: BorderRadius.circular(10),
+                  ))
+            ],
+          )),
     );
   }
 }
@@ -126,7 +146,7 @@ class MyApp extends StatelessWidget {
         // change color while the other colors stay the same.
    //     backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         // Here we take the value from the MyHomePage object that was created by
-        // the App.build method, and use it to set our appbar title.
+        // the App.build method, and use it to set our app bar title.
 //         title: Text(widget.title),
 //       ),
 //       body: Center(
@@ -145,7 +165,7 @@ class MyApp extends StatelessWidget {
           //
           // TRY THIS: Invoke "debug painting" (choose the "Toggle Debug Paint"
           // action in the IDE, or press "p" in the console), to see the
-          // wireframe for each widget.
+          // wire frame for each widget.
 //           mainAxisAlignment: MainAxisAlignment.center,
 //           children: <Widget>[
 //             const Text(
@@ -166,3 +186,6 @@ class MyApp extends StatelessWidget {
 //     );
 //   }
 // }
+
+
+// 
