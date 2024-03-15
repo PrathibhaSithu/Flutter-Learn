@@ -18,9 +18,9 @@ class MyApp extends StatelessWidget {
           backgroundColor: Colors.pink,
         ),
         body: Container(
-          height: 100,
+          height: 250,
           width: 250,
-          color: Colors.indigoAccent,
+          color: Colors.purpleAccent,
         ),
       ),
     );
