@@ -20,7 +20,11 @@ class MyApp extends StatelessWidget {
         body: Container(
           height: 250,
           width: 250,
-          color: Colors.purpleAccent,
+          decoration: BoxDecoration(
+            color: Colors.purpleAccent,
+            borderRadius: BorderRadius.circular(10),
+          ),
+          child: Text("Hello"),
         ),
       ),
     );
