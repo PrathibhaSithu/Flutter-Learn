@@ -16,7 +16,6 @@ class MyApp extends StatelessWidget {
             backgroundColor: Colors.pinkAccent,
             body: Column(
               children: [
-                
                 Container(
                     height: 150,
                     width: 350,
