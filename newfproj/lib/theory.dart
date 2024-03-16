@@ -1,5 +1,6 @@
 // complete app is a column
-
+// columns are used to display widgets in a vertical format
+// rows are used to display widgets in a horizontal format
 
 
 
