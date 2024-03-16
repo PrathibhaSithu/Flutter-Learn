@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
               children: [
                 Container(
                     height: 150,
-                    width: 350,
+                    width: double.infinity,
                     decoration: BoxDecoration(
                       color: Colors.purple,
                       borderRadius: BorderRadius.circular(10),
